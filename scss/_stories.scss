@@ -1,0 +1,96 @@
+.latest-stories{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 120px;
+    gap: 20px;
+
+    .latest-title{
+        font-size: 50px;
+        font-weight: 700;
+        color: white;
+    }
+
+    .latest-list{
+        font-size: 20px;
+        color: white;
+    }
+
+
+    .latest-stories-items{
+        width: 100%;
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+
+        .latest-stories-box{
+            display: flex;
+            flex-direction: column;
+            border: 1px solid gray;
+            // border: none;
+            border-radius: 10px;   
+            background-color: white; 
+            
+
+            .stories-img{
+                width: 100%;
+                
+                
+                img{
+                    width: 100%;
+                    border-radius: 10px 10px 0px 0px;
+                }
+            }
+
+            .stories-title-list{
+                display: flex;
+                gap: 20px;
+                flex-direction: column;
+                background-color: white;
+                padding: 10px 20px;
+                border-radius: 10px;
+
+                .stories-list{
+                    font-size: 20px;
+                    span{
+                        font-weight: 600;
+                    }
+                    
+                }
+                .stories-title{
+                    width: 70%;
+                    font-size: 26px;
+                    font-weight: 700;
+                }
+
+
+            }
+
+        }
+    }
+
+
+    .more-stories-next{
+        padding: 50px 0px;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+
+        .more-stories{
+            font-size: 20px;
+            color: white;
+        }
+
+        button{
+            border: none;
+            background-color: transparent;
+            i{
+                font-size: 22px;
+                color: white;
+            }
+        }
+    }
+}

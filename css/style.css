@@ -205,3 +205,183 @@
   text-decoration: none;
   font-family: sans-serif;
 }
+
+main {
+  background-color: #1F2E35;
+}
+
+.great-business-product {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px 120px;
+}
+.great-business-product .business-product {
+  display: flex;
+  gap: 50px;
+}
+.great-business-product .business-product .business-img-two {
+  width: 50%;
+}
+.great-business-product .business-product .business-img-two img {
+  width: 100%;
+}
+.great-business-product .business-product .business-title-btn-img {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+}
+.great-business-product .business-product .business-title-btn-img .business-title {
+  width: 70%;
+  font-size: 50px;
+  color: white;
+  font-weight: 600;
+}
+.great-business-product .business-product .business-title-btn-img .business-list {
+  width: 75%;
+  font-size: 22px;
+  color: white;
+  font-weight: 400;
+}
+.great-business-product .business-product .business-title-btn-img .great-business-btn {
+  width: 70%;
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 50px;
+  padding: 10px 15px;
+  align-items: center;
+  justify-content: center;
+}
+.great-business-product .business-product .business-title-btn-img .great-business-btn input {
+  width: 100%;
+  font-size: 18px;
+  border: none;
+  background-color: transparent;
+}
+.great-business-product .business-product .business-title-btn-img .great-business-btn .business-btn {
+  font-size: 18px;
+  white-space: nowrap;
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+  background-color: #02897A;
+  color: white;
+}
+
+.latest-stories {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 120px;
+  gap: 20px;
+}
+.latest-stories .latest-title {
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+}
+.latest-stories .latest-list {
+  font-size: 20px;
+  color: white;
+}
+.latest-stories .latest-stories-items {
+  width: 100%;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+.latest-stories .latest-stories-items .latest-stories-box {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: white;
+}
+.latest-stories .latest-stories-items .latest-stories-box .stories-img {
+  width: 100%;
+}
+.latest-stories .latest-stories-items .latest-stories-box .stories-img img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.latest-stories .latest-stories-items .latest-stories-box .stories-title-list {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.latest-stories .latest-stories-items .latest-stories-box .stories-title-list .stories-list {
+  font-size: 20px;
+}
+.latest-stories .latest-stories-items .latest-stories-box .stories-title-list .stories-list span {
+  font-weight: 600;
+}
+.latest-stories .latest-stories-items .latest-stories-box .stories-title-list .stories-title {
+  width: 70%;
+  font-size: 26px;
+  font-weight: 700;
+}
+.latest-stories .more-stories-next {
+  padding: 50px 0px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.latest-stories .more-stories-next .more-stories {
+  font-size: 20px;
+  color: white;
+}
+.latest-stories .more-stories-next button {
+  border: none;
+  background-color: transparent;
+}
+.latest-stories .more-stories-next button i {
+  font-size: 22px;
+  color: white;
+}
+
+.contact-us {
+  display: flex;
+  padding: 100px 120px;
+  align-items: center;
+  justify-content: center;
+}
+.contact-us .contact-us-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.contact-us .contact-us-items .contact-us-title {
+  font-size: 48px;
+  color: white;
+  font-weight: 600;
+}
+.contact-us .contact-us-items .contact-us-list {
+  width: 50%;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  font-weight: 400;
+}
+.contact-us .contact-us-items .contact-us-icon {
+  display: flex;
+  gap: 20px;
+  font-size: 30px;
+  margin-top: 30px;
+}
+.contact-us .contact-us-items .contact-us-icon i {
+  background-color: white;
+  padding: 10px 10px;
+  border-radius: 50px;
+}
+.contact-us .contact-us-img {
+  padding: 50px 0px;
+}

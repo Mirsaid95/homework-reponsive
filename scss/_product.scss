@@ -1,0 +1,69 @@
+.great-business-product{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 120px;
+
+    .business-product{
+        display: flex;
+        gap: 50px;
+
+        .business-img-two{
+            width: 50%;
+            img{
+                width: 100%;
+            }
+        }
+
+        .business-title-btn-img{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            justify-content: center;
+            .business-title{
+                width: 70%;
+                font-size: 50px;
+                color: white;
+                font-weight: 600;
+                
+            }
+            .business-list{
+                width: 75%;
+                font-size: 22px;
+                color: white;
+                font-weight: 400;
+            }
+
+            .great-business-btn{
+                width: 70%;
+                display: flex;
+                border: 1px solid gray;
+                border-radius: 50px;
+                padding: 10px 15px;
+                align-items: center;
+                justify-content: center;    
+                
+
+                input{
+                    width: 100%;
+                    font-size: 18px;
+                    border: none;
+                    background-color: transparent;
+                }
+
+                .business-btn{
+                    font-size: 18px;
+                    white-space: nowrap;
+                    padding: 15px 30px;
+                    border-radius: 50px;
+                    border: none;
+                    background-color: #02897A;
+                    color: white;
+                }
+            }
+            
+
+        }   
+
+    }
+}
