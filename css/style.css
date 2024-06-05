@@ -348,11 +348,12 @@ main {
 
 .contact-us {
   display: flex;
-  padding: 100px 120px;
+  padding: 100px 300px;
   align-items: center;
   justify-content: center;
 }
 .contact-us .contact-us-items {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -382,6 +383,96 @@ main {
   padding: 10px 10px;
   border-radius: 50px;
 }
-.contact-us .contact-us-img {
+.contact-us .contact-us-items .contact-us-img {
   padding: 50px 0px;
+  width: 100%;
+}
+.contact-us .contact-us-items .contact-us-img img {
+  width: 100%;
+}
+
+.registers {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 300px;
+}
+.registers .register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #22343D;
+  padding: 50px 50px;
+}
+.registers .register-form input {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 50px;
+  border: none;
+}
+.registers .register-form textarea {
+  height: 300px;
+  padding: 10px;
+  font: 16px;
+}
+.registers .register-form button {
+  padding: 15px 40px;
+  font-size: 18px;
+  border-radius: 50px;
+  border: none;
+  background-color: #02897A;
+  color: white;
+}
+.registers .register-form .register-title {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font-weight: 700;
+  color: white;
+}
+
+.footer {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 120px;
+}
+.footer .footer-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  font-size: 1.5rem;
+  color: white;
+}
+.footer .footer-item .footer-box {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer .footer-item .footer-box .legal {
+  width: 100%;
+  font-size: 24px;
+  font-weight: 400;
+}
+.footer .footer-item .footer-box input {
+  width: 300px;
+  height: 55px;
+  padding: 0px 10px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.footer .footer-item .footer-box button {
+  width: 150px;
+  height: 55px;
+  background-color: #02897A;
+  color: white;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
 }
